@@ -1,4 +1,4 @@
-var checkdns = require('checkdns');
+var checkdns = require('checkdnsjson');
 
 exports.dns_lookup = function (req, res) {
     let type = req.params.type ? req.params.type : false;
