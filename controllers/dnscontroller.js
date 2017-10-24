@@ -10,7 +10,7 @@ exports.dns_lookup = function (req, res) {
                 res.status(500);
             res.json(resp.error);
         } else
-            res.json(resp);
+            res.send(resp);
 
         return;
     });
